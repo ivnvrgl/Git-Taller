@@ -1,12 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Réplica de página</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Répicla página</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <body class="">
+    <!-- Navbar -->
+    <!-- Image and text -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/swatches.png"
+            class="me-3"
+            height="60"
+            alt="MDB Logo"
+            loading="lazy"
+          />
+          <small>Soluciones Ltda.</small>
+        </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarRightAlignExample"
+              aria-controls="navbarRightAlignExample"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+              <!-- Left links -->
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- Navbar dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle active"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Servicios
+                  </a>
+                  <!-- Dropdown menu -->
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">Animación 3D</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Videos Corporativos</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Producción de videos</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Nuevas Tendencias</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Portafolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Blog</a>
+                </li>
+                <button type="button" class="btn btn-success ms-2">
+                  Cotizar
+                </button>
+              </ul>
+              <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Sección1 Banner -->
+    <section>
+      <div
+        class="p-5 text-center bg-image"
+        style="
+          background-image: url('assets/img/matteo-bernardis.jpg');
+          height: 700px;
+        "
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6)">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Video Profesional</h1>
+              <h4 class="mb-3">Animaciones 3D</h4>
+              <a class="btn btn-outline-light btn-lg" href="#!" role="button"
+                >Entrar</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sección 1 Banner -->    
+
+    
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
+  </body>
 </html>
